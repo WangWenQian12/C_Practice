@@ -1,9 +1,18 @@
-﻿生成启动时间为 2019/7/13 18:20:26。
-     1>项目“E:\code\vs\Contact\Contact\Contact.vcxproj”在节点 2 上(Build 个目标)。
-     1>Link:
-         Contact.vcxproj -> E:\code\vs\Contact\Debug\Contact.exe
-     1>已完成生成项目“E:\code\vs\Contact\Contact\Contact.vcxproj”(Build 个目标)的操作。
+﻿生成启动时间为 2019/8/13 17:30:55。
+     1>项目“E:\Git\C_Practice\作业代码\C 21\Contact\Contact\Contact.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /I"D:\app\vs2013\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Contact.c main.c
+         main.c
+         Contact.c
+     1>e:\git\c_practice\作业代码\c 21\contact\contact\contact.c(79): warning C4047: “初始化”:“int”与“void *”的间接级别不同
+         正在生成代码...
+     1>e:\git\c_practice\作业代码\c 21\contact\contact\contact.c(88): warning C4715: “Inc”: 不是所有的控件路径都返回值
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Git\C_Practice\作业代码\C 21\Contact\Debug\Contact.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\app\vs2013\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Git\C_Practice\作业代码\C 21\Contact\Debug\Contact.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Git\C_Practice\作业代码\C 21\Contact\Debug\Contact.lib" /MACHINE:X86 Debug\Contact.obj
+         Debug\main.obj
+         Contact.vcxproj -> E:\Git\C_Practice\作业代码\C 21\Contact\Debug\Contact.exe
+     1>已完成生成项目“E:\Git\C_Practice\作业代码\C 21\Contact\Contact\Contact.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.89
+已用时间 00:00:02.51
